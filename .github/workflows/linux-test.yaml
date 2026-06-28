@@ -1,1 +1,22 @@
+name: GitHub Action Demo
 
+on:
+  push:
+
+jobs:
+  action-demo:
+    name: deploy-test
+    runs-on: ubuntu-latest
+
+    steps:
+        - run: pwd
+
+        - run: ls -la
+
+        - run: whoami
+
+        - run: hostname
+
+        - run: uname -a
+
+    
