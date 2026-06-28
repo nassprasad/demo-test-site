@@ -19,4 +19,6 @@ jobs:
 
         - run: uname -a
 
+         - run: printenv
+
     
