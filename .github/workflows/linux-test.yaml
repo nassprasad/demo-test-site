@@ -5,20 +5,16 @@ on:
 
 jobs:
   action-demo:
-    name: deploy-test
+    name: demo-test
     runs-on: ubuntu-latest
 
     steps:
         - run: pwd
 
-        - run: ls -la
-
         - run: whoami
 
         - run: hostname
 
-        - run: uname -a
-
-         - run: printenv
+        - run: printenv
 
     
